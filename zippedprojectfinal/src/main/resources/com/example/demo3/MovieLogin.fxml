@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.MovieLogin">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="800.0" prefWidth="498.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="imLARGE" fitHeight="625.0" fitWidth="468.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/Assets/Images/bb617e1cadf60bdddf848aa586ab6391.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox prefHeight="800.0" prefWidth="501.0" style="-fx-background-color: black;" styleClass="background-2" stylesheets="@../../../../java/CSS/style.css">
+         <children>
+            <HBox prefHeight="94.0" prefWidth="339.0" style="-fx-background-color: black;" stylesheets="@../../../../java/CSS/style.css">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin></HBox>
+            <HBox prefHeight="100.0" prefWidth="355.0" styleClass="background-2" stylesheets="@../../../../java/CSS/style.css">
+               <children>
+                  <ImageView fx:id="imPLAY" fitHeight="167.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/Assets/Images/unnamed.jpg" />
+                     </image></ImageView>
+                  <Pane prefHeight="150.0" prefWidth="191.0" style="-fx-background-color: red;">
+                     <children>
+                        <TextField alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="150.0" prefWidth="189.0" style="-fx-background-color: red;" styleClass="background-1" text="MOVIE DATABASE SYSTEM">
+                           <font>
+                              <Font name="Comic Sans MS Bold Italic" size="11.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </TextField>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <HBox prefHeight="84.0" prefWidth="339.0" style="-fx-background-color: grey;" styleClass="background-2" stylesheets="@../../../../java/CSS/style.css">
+               <children>
+                  <Pane prefHeight="81.0" prefWidth="82.0">
+                     <children>
+                        <ImageView fx:id="imCOMP" fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../java/Assets/Images/user-login-icon-set-web-icons-84578964.jpg" />
+                           </image>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <ChoiceBox fx:id="choice" prefHeight="34.0" prefWidth="216.0">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </ChoiceBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="84.0" prefWidth="339.0" style="-fx-background-color: grey;" styleClass="background-2" stylesheets="@../../../../java/CSS/style.css">
+               <children>
+                  <Pane prefHeight="73.0" prefWidth="82.0">
+                     <children>
+                        <ImageView fx:id="imPASS" fitHeight="70.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../java/Assets/Images/password_64px.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <PasswordField fx:id="password" prefHeight="26.0" prefWidth="204.0" promptText="Enter Password Here">
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                  </PasswordField>
+                  <Pane prefHeight="84.0" prefWidth="81.0">
+                     <children>
+                        <ImageView fx:id="imEYE" fitHeight="46.0" fitWidth="55.0" layoutX="9.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../java/Assets/Images/index.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <Pane prefHeight="100.0" prefWidth="339.0" styleClass="background-2" stylesheets="@../../../../java/CSS/style.css">
+               <children>
+                  <Button fx:id="enter" layoutX="150.0" layoutY="27.0" mnemonicParsing="false" onAction="#onEnterClick" prefHeight="59.0" prefWidth="82.0" styleClass="background-1" stylesheets="@../../../../java/CSS/style.css" text="Click Here" />
+                  <ImageView fx:id="imLOGIN" fitHeight="70.0" fitWidth="70.0" layoutX="75.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/Assets/Images/vector-illustration-isolated-white-background-login-button-icon-126999949.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </VBox>
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</HBox>

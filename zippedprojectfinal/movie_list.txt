@@ -1,0 +1,7 @@
+Mighty Aphrodite,1995,Comedy Romance ,95,Miramax Films,15000000,6700000
+Pulp Fiction,1994,Thriller Crime ,154,Miramax Films,8000000,213928762
+The Crow,1994,Fantasy Action Thriller,102,Miramax Films,15000000,94000000
+Trainspotting,1996,Drama Crime ,93,Miramax Films,4000000,16491080
+The English Patient,1996,Drama Romance War,162,Miramax Films,27000000,231976425
+Good Will Hunting,1997,Drama  ,126,Miramax Films,10000000,225933435
+Jackie Brown,1997,Comedy Crime Romance,154,Miramax Films,12000000,39673162

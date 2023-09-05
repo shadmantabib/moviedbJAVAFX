@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.RevMaxController">
+   <children>
+      <VBox layoutY="30.0" prefHeight="800.0" prefWidth="1000.0">
+         <children>
+            <TableView fx:id="table" prefHeight="720.0" prefWidth="977.0">
+              <columns>
+                <TableColumn fx:id="titleCol" prefWidth="107.60000306367874" style="-fx-background-color: grey;" text="Title" />
+                <TableColumn fx:id="ryearCol" prefWidth="93.20000457763672" style="-fx-background-color: #bb86d9;" text="Release Year" />
+                  <TableColumn fx:id="genreCol" prefWidth="260.3999938964844" style="-fx-background-color: grey;" text="Genre" />
+                  <TableColumn fx:id="durCol" prefWidth="108.60003662109375" style="-fx-background-color: #bb86d9;" text="Duration" />
+                  <TableColumn fx:id="prodCol" prefWidth="187.0" style="-fx-background-color: grey;" text="Prod Company" />
+                  <TableColumn fx:id="budCol" prefWidth="130.60003662109375" style="-fx-background-color: #bb86d9;" text="Budget" />
+                  <TableColumn fx:id="revCol" prefWidth="113.4000244140625" style="-fx-background-color: grey;" text="Revenue" />
+              </columns>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </TableView>
+         </children>
+      </VBox>
+      <Button fx:id="loadVar" layoutX="199.0" layoutY="4.0" mnemonicParsing="false" onAction="#onLoadclick" style="-fx-background-color: red;" text="load" textFill="#050505">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="12.0" />
+         </font></Button>
+      <Button layoutX="782.0" layoutY="3.0" mnemonicParsing="false" onAction="#backAction" style="-fx-background-color: red;" text="Back">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

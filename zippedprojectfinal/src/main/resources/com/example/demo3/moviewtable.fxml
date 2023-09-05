@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.MoviewtableController">
+   <children>
+
+      <VBox layoutY="30.0" prefHeight="387.0" prefWidth="1000.0">
+         <children>
+            <TableView fx:id="table" prefHeight="386.0" prefWidth="978.0">
+              <columns>
+                <TableColumn fx:id="titleCol" prefWidth="139.20000302791595" style="-fx-background-color: grey;" text="Title" />
+                <TableColumn fx:id="ryearCol" prefWidth="93.39999389648438" style="-fx-background-color: #bb86d9;" text="Release Year" />
+                  <TableColumn fx:id="genreCol" prefWidth="202.60000610351562" style="-fx-background-color: grey;" text="Genre" />
+                  <TableColumn fx:id="durCol" prefWidth="113.60003662109375" style="-fx-background-color: #bb86d9;" text="Duration" />
+                  <TableColumn fx:id="prodCol" prefWidth="182.00003051757812" style="-fx-background-color: grey;" text="Prod Company" />
+                  <TableColumn fx:id="budCol" prefWidth="144.0" style="-fx-background-color: #bb86d9;" text="Budget" />
+                  <TableColumn fx:id="revCol" prefWidth="131.20001220703125" style="-fx-background-color: grey;" text="Revenue" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <TextField fx:id="nameText" layoutX="151.0" layoutY="2.0" prefHeight="26.0" prefWidth="205.0" promptText="Enter Name" style="-fx-border-color: green;" />
+      <Button layoutX="395.0" layoutY="2.0" mnemonicParsing="false" onAction="#onSearchClick" style="-fx-border-color: green; -fx-background-color: pink;" text="Search" textFill="#464b1c" />
+      <Button layoutX="510.0" layoutY="2.0" mnemonicParsing="false" onAction="#backToLogin" style="-fx-border-color: green; -fx-background-color: pink;" text="Back" textFill="#7e2424" />
+      <WebView fx:id="webView" layoutX="14.0" layoutY="425.0" prefHeight="346.0" prefWidth="611.0" />
+      <Button layoutX="634.0" layoutY="605.0" mnemonicParsing="false" onAction="#loadPage" style="-fx-background-color: red;" text="Load trailer">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font></Button>
+      <ImageView fx:id="imgtrailer" fitHeight="148.0" fitWidth="265.0" layoutX="711.0" layoutY="551.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/Assets/Images/imageTrailer.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

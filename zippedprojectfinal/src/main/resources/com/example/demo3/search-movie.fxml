@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.SearchMovieController">
+   <children>
+      <Button layoutX="221.0" layoutY="54.0" mnemonicParsing="false" text="By Movie Title" />
+      <Button layoutX="221.0" layoutY="94.0" mnemonicParsing="false" text="By Releasing Year" />
+      <Button layoutX="221.0" layoutY="138.0" mnemonicParsing="false" text="By Genre" />
+      <Button layoutX="221.0" layoutY="188.0" mnemonicParsing="false" text="By Production Company" />
+      <Button layoutX="221.0" layoutY="230.0" mnemonicParsing="false" text="By Running Time" />
+      <Button layoutX="221.0" layoutY="272.0" mnemonicParsing="false" text="Top 10 Movies" />
+      <Button layoutX="221.0" layoutY="331.0" mnemonicParsing="false" text="Back" />
+      <BorderPane layoutY="7.0" prefHeight="153.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

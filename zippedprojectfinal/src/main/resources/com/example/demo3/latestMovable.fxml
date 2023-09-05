@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.LatestMovable">
+   <children>
+      <VBox layoutY="30.0" prefHeight="800.0" prefWidth="1000.0">
+         <children>
+            <TableView fx:id="table" prefHeight="800.0" prefWidth="1000.0">
+              <columns>
+                <TableColumn fx:id="titleCol" prefWidth="107.60000306367874" style="-fx-background-color: grey;" text="Title" />
+                <TableColumn fx:id="ryearCol" prefWidth="145.1999969482422" style="-fx-background-color: #bb86d9;" text="Release Year" />
+                  <TableColumn fx:id="genreCol" prefWidth="275.5999755859375" style="-fx-background-color: grey;" text="Genre" />
+                  <TableColumn fx:id="durCol" prefWidth="108.80001831054688" style="-fx-background-color: #bb86d9;" text="Duration" />
+                  <TableColumn fx:id="prodCol" prefWidth="167.19998168945312" style="-fx-background-color: grey;" text="Prod Company" />
+                  <TableColumn fx:id="budCol" prefWidth="103.5999755859375" style="-fx-background-color: #bb86d9;" text="Budget" />
+                  <TableColumn fx:id="revCol" prefWidth="88.5999755859375" style="-fx-background-color: grey;" text="Revenue" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <Button fx:id="loadVar" layoutX="317.0" layoutY="1.0" mnemonicParsing="false" onAction="#onLoadclick" prefHeight="26.0" prefWidth="87.0" style="-fx-background-color: red;" text="load">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Button>
+      <Button layoutX="553.0" layoutY="2.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: red;" text="Back">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

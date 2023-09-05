@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background-2" stylesheets="@../../../../java/CSS/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.OptionsController">
+   <children>
+      <Button fx:id="mrm" layoutX="255.0" layoutY="226.0" mnemonicParsing="false" onAction="#onMostRecent" text="Transfer  Movies" />
+      <Button layoutX="231.0" layoutY="74.0" mnemonicParsing="false" onAction="#revFind" text="Movies with MaxRevenue" />
+      <Button fx:id="lp" layoutX="263.0" layoutY="174.0" mnemonicParsing="false" onAction="#onClickLP" text="Total Profit" />
+      <Button layoutX="51.0" layoutY="34.0" mnemonicParsing="false" onAction="#SearchMovieController" prefHeight="38.0" prefWidth="253.0" text="Search Movies " textFill="#302e2e" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+         <padding>
+            <Insets top="20.0" />
+         </padding></Button>
+      <Button layoutX="247.0" layoutY="308.0" mnemonicParsing="false" onAction="#backToMain" text="Back to Main Menu" />
+      <Button layoutX="220.0" layoutY="120.0" mnemonicParsing="false" onAction="#latestMovie" text="Movie with latest release year" />
+   </children>
+</AnchorPane>
